@@ -12,7 +12,7 @@ class Headshet extends StatelessWidget {
             Padding(padding: EdgeInsets.all(20.0)),
             Text("Headshet", style: TextStyle(fontSize: 30.0)),
             Padding(padding: EdgeInsets.all(20.0)),
-            new Icon(Icons.headset, size: 90.0),
+            Image.asset("img/headshet.jpg", width: 300.0, ),
           ],
         ),
       ),

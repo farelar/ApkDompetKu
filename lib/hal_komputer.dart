@@ -12,7 +12,7 @@ class Computer extends StatelessWidget {
             Padding(padding: EdgeInsets.all(20.0)),
             Text("Computer", style: TextStyle(fontSize: 30.0)),
             Padding(padding: EdgeInsets.all(20.0)),
-            new Icon(Icons.computer, size: 90.0),
+            Image.asset("img/computer.jpg", width: 300.0,),
           ],
         ),
       ),
