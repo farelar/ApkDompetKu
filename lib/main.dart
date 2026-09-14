@@ -1,3 +1,4 @@
+import 'package:apk_keuangan/pengaturan.dart';
 import 'package:flutter/material.dart';
 import 'package:apk_keuangan/appbar.dart';
 import 'package:apk_keuangan/card_parsing.dart';
@@ -12,6 +13,7 @@ void main() {
       routes: <String, WidgetBuilder>{
         '/Navigation': (BuildContext context)=> navigation(),
         '/Navigation2': (BuildContext context)=> navigation2(),
+        '/AdvanceSettings':(context) => AdvancePengaturan(),
       },
     )
   );
